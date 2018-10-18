@@ -113,4 +113,10 @@ public interface IConstantFactory {
      */
     List<Integer> getParentDeptIds(Integer deptid);
 
+    /**
+     * 根据标签1:获取是否启用
+     * @param tagStatus
+     * @return
+     */
+    String getTagName(Integer tagStatus);
 }

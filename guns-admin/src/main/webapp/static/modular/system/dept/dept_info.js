@@ -174,7 +174,6 @@ function onBodyDown(event) {
 
 $(function() {
     Feng.initValidator("deptInfoForm", DeptInfoDlg.validateFields);
-
     var ztree = new $ZTree("parentDeptMenuTree", "/dept/tree");
     ztree.bindOnClick(DeptInfoDlg.onClickDept);
     ztree.init();
